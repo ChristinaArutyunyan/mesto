@@ -1,0 +1,23 @@
+.profile__group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 1150px) {
+    .profile__group {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+}
+@media screen and (max-width: 970px) {
+    .profile__group {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+}

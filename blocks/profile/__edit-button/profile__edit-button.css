@@ -1,0 +1,13 @@
+.profile__edit-button {
+    width: 24px;
+    height: 24px;
+    border: solid white 1px;
+    margin-left: 18px;
+    align-self: flex-end;
+    background-color:#2a2c2f;
+    background-image: url(../../../images/Vector\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+
+}

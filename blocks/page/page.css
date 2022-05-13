@@ -1,0 +1,23 @@
+.page {
+  max-width: 1280px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin: 45px 200px 60px;
+  background-color: #2a2c2f;
+  color: white;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+@media screen and (max-width: 970px) {
+  .page {
+    margin: 45px 120px 60px;
+      
+  }
+  
+}
