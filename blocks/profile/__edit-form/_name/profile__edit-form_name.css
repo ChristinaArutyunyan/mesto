@@ -1,0 +1,17 @@
+.profile__edit-form_name {
+    width: 358px;
+    margin: 54px 0 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+@media screen and (max-width:500px) {
+    .profile__edit-form_name {
+        width: 238px;
+    }

@@ -1,0 +1,29 @@
+.profile__edit-form {
+    position: fixed;
+    width: 430px;
+    height: 330px;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 34px 36px 37px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: white;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: black; 
+    text-align: start;
+}
+
+@media screen and (max-width:500px) {
+    .profile__edit-form {
+        width: 282px;
+        height: 322px;
+        padding: 25px 22px 25px;
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+}

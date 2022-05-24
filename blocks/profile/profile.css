@@ -1,14 +1,16 @@
 .profile {
+    width: 100%;
     margin-top: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 30px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 500px) {
     .profile {
         flex-direction: column;
         align-items: center;

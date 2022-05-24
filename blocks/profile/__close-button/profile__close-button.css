@@ -1,0 +1,10 @@
+.profile__close-button {
+    width: 32px;
+    height: 32px;
+    position: absolute; 
+    top: -32px;
+    right: -32px;
+    background-image: url(../../../images/Close\ Icon.svg);
+    background-color: transparent;
+    border: none;
+}

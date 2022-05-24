@@ -2,8 +2,8 @@
     width: 24px;
     height: 24px;
     border: solid white 1px;
+    margin-top: 16px;
     margin-left: 18px;
-    align-self: flex-end;
     background-color:#2a2c2f;
     background-image: url(../../../images/Vector\ \(1\).svg);
     background-repeat: no-repeat;
@@ -11,3 +11,17 @@
     box-sizing: border-box;
 
 }
+
+.profile__edit-button:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 500px) {
+    .profile__edit-button {
+      width: 18px;
+      height: 18px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    
+  }

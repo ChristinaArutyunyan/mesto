@@ -2,7 +2,15 @@
    list-style: none;
    padding: 0;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
+   gap: 17px;
    flex-direction: row;
    flex-wrap: wrap; 
+   margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+   .elements__list {
+      gap: 20px;
+   }
 }

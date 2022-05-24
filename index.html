@@ -9,16 +9,12 @@
   <body class='page'>
 
     <header class='header'>
-        <a class='header__logo-link' href='#'>
+        <a class='header__logo' href='#'>
             <img 
-            class='header__logo-link'
+            class='header__logo'
             src='./images/Vector.svg'
             alt='логотип Mesto'>
         </a>
-        <img
-            class='header__line'
-            src='./images/Line.svg'
-            alt='линия'>
     </header>
 
     <main class='content'>
@@ -35,8 +31,21 @@
             </div>
             <button class='profile__add-button' src='./images/Vector.3svg.svg'></button>
             </div>
+
+            <div class='overlay'>
+                <form class='profile__edit-form' action="index.html" method="post">
+                    Редактировать профиль
+                    <input class='profile__edit-form_name' type="text" name="" placeholder='Жак-Ив Кусто'></input>
+                    <input class='profile__edit-form_extra-information' type="text" name="" placeholder='Исследователь океана'></input>
+                    <button class='profile__save-button' type='submit'>Сохранить</button>
+                    <button class='profile__close-button'></button>   
+                </form>
+            </div>
+        
             
+
         </section>
+
 
         <section class='elements'>
             <ul class='elements__list'>
@@ -62,9 +71,7 @@
                     />
                     <div class='element__rectangle'>
                         <p class ='element__text'>Гора Эльбрус</p>
-                        <img 
-                        class='element__like'
-                        src='./images/Vector2.svg'/> 
+                        <button class='element__like' src='./images/Vector2.svg'></button>
                     </div>
                 </li>
 
@@ -130,4 +137,5 @@
     <footer class='footer'>
         <p class='footer__text'>© 2020 Mesto Russia</p>
     </footer>
+    <script src="script.js"></script>
   </body>

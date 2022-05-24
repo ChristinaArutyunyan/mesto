@@ -1,10 +1,11 @@
 .profile__add-button {
-    min-width: 150px;
+    width: 150px;
+    max-width: 150px;
+    flex-grow: 1;
+    flex-basis: 50px;
     height: 50px;
     border: solid white 2px;
     align-self: center;
-    
- 
     background-color:#2a2c2f;
     background-image: url(../../../images/Vector.3svg.svg);
     background-repeat: no-repeat;
@@ -12,9 +13,16 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 500px) {
     .profile__add-button {
         align-self: stretch;
+        width: 282px;
+        max-width: unset;
+        flex-grow: unset;
+        flex-basis: unset;
     }
-    
+}
+
+.profile__add-button:hover {
+    opacity: 0.6;
 }

@@ -1,4 +1,14 @@
 .header {
+    height: 84px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #545454;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        padding: 0 27px;
+    }
 }

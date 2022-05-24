@@ -14,10 +14,20 @@
   -moz-text-size-adjust: 100%;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (min-width: 1480px) {
   .page {
-    margin: 45px 120px 60px;
-      
+    margin: 45px auto 60px;   
   }
-  
+}
+
+@media screen and (max-width: 1080px) {
+  .page {
+    margin: 45px 50px 60px;   
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .page {
+    margin: 0;
+  }
 }
