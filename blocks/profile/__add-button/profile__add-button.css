@@ -6,7 +6,7 @@
     height: 50px;
     border: solid white 2px;
     align-self: center;
-    background-color:#2a2c2f;
+    background-color: var(--bg-color);
     background-image: url(../../../images/Vector.3svg.svg);
     background-repeat: no-repeat;
     background-position: center;

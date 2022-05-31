@@ -1,5 +1,6 @@
 .profile__edit-form_extra-information {
     width: 358px;
+    padding-bottom: 13px;
     border: none;
     border-bottom: 1px solid #000000;
     font-family: inherit;
@@ -14,3 +15,4 @@
     .profile__edit-form_extra-information {
         width: 238px;
     }
+}

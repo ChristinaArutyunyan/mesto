@@ -1,7 +1,8 @@
 .profile__save-button {
     width: 358px;
     height: 50px;
-    margin-top: 62px;
+    margin-top: 48px;
+    border: none;
     border-radius: 2px;
     background-color: black;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
