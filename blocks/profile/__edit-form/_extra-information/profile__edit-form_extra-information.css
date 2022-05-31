@@ -1,4 +1,4 @@
-.profile__edit-form_extra-information {
+.profile__edit-form-extra-information {
     width: 358px;
     padding-bottom: 13px;
     border: none;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width:500px) {
-    .profile__edit-form_extra-information {
+    .profile__edit-form-extra-information {
         width: 238px;
     }
 }

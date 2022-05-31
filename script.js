@@ -1,9 +1,9 @@
 const popup = document.querySelector(".profile__edit-form");
 const overlay = document.querySelector(".overlay");
 const form = document.querySelector(".profile__edit-form");
-const profileNameInput = document.querySelector(".profile__edit-form_name");
+const profileNameInput = document.querySelector(".profile__edit-form-name");
 const profileNameInformationInput = document.querySelector(
-  ".profile__edit-form_extra-information"
+  ".profile__edit-form-extra-information"
 );
 const popupOpenButton = document.querySelector(".profile__edit-button");
 const popupCloseButton = document.querySelector(".profile__close-button");
