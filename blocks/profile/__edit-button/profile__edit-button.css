@@ -1,5 +1,5 @@
 .profile__edit-button {
-    width: 24px;
+    min-width: 24px;
     height: 24px;
     border: solid white 1px;
     margin-top: 16px;

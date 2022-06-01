@@ -9,6 +9,10 @@
     font-size: 14px;
     line-height: 17px;
     color: #000000;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: ограничение ширины;
 }
 
 @media screen and (max-width:500px) {
